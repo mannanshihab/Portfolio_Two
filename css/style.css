@@ -1,0 +1,145 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('font-awesome.min.css');
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: Roboto, sans-sarif;
+}
+
+/****Nabver*****/
+	.bg-color{
+		background-color: #147981;
+		color: #fff;
+	}
+	.bg-color-2{
+		background-color: #DFFFFF;
+	}
+	.bg-color-3{
+		background-color: #F8F9FA;
+	}
+	.bg-color-secondary{
+		background-color: #DFFFFF;
+	}
+	.bg-color-secondary img{
+		height: 400px;
+		margin-left: -0.9rem;
+	}
+	.text-color{
+		color: #CEDE73;
+	}
+	.text-color-2{
+		color: #FFF;
+		font-size: 2rem;
+		letter-spacing: 1px;
+	}
+	.bg-color-2{
+		opacity: 0.9;
+	}
+	.menu a{
+		text-decoration: none;
+		display: inline-flex;
+		letter-spacing: 2px;
+		color: #FFF;
+		padding: 5px;
+	}
+	.menu a:hover{
+		color: #CEDE73;
+		border-bottom: 2px solid #CEDE73;
+	}
+	.menu a:active{
+		color: #CEDE73;
+	}
+	.pro, h3{
+		font-size: 4rem;
+			
+	}
+
+
+/*About*/
+	h2{
+		font-size: 4rem;
+	}
+	h3{
+		font-size: 2.5rem;
+	}
+
+/****work card*****/
+	.work{
+		position: relative;
+		border: 1px solid #147981;
+		color: #333;
+
+	}
+	.work img{
+		border-bottom: 4px solid#147981;
+		width: 100%;
+		/*padding: 10px;*/
+	}
+
+	.work .icon{
+		text-align: center;
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		bottom: 90px;
+	}
+	.work .icon a{
+		border-radius: 50px;
+		border: 4px solid #147981;
+		text-decoration: none;
+		font-size: 16px;
+		background-color: #DFFFFF;
+		color: #333;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	.button{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+/*Strat footer*/
+
+.social a {
+	font-size: 4em;
+	padding: 1.3rem;
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+
+.fa-linkedin{
+	color: #517fa4;
+}
+.fa-mobile{
+	color: #FFF;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover{
+	color: #d5d5d5;
+}
+#fixed .back-to-top {
+    display: block;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    font-size: 0.7rem;
+}
+#fixed .btn-secondary{
+	background-color: #CEDE73;
+	color: #FFF;
+	border:none;
+}
+#fixed .btn-secondary:active{
+	border:none;
+}
